@@ -1,5 +1,9 @@
-let num = 0;
-
-console.log(num)
+function crazyString(bruh)
+{
+	bruh = str.substring(1,3);
+	
+	return bruh;
+}
+console.log(crazyString("bruh"));
 
 
