@@ -1,9 +1,8 @@
-function crazyString(bruh)
+function crazyString(string)
 {
-	bruh = str.substring(1,3);
-	
-	return bruh;
+	let str = string.substring(0,3);
+	let newString = str + string + str;
+	return newString;
 }
-console.log(crazyString("bruh"));
-
-
+console.log(crazyString("bruh") === "brubruhbru");
+console.log(crazyString("yolo") === "yolyoloyol");
